@@ -37,16 +37,7 @@ header h1{
     margin: 0 auto;
   }
   
-  @media screen and (width < 800px) {
-    header {
-      display: flex;
-      flex-direction: column;
-    }
-    .post{
-      width: 70%;
-    }
-  }
-  
+
 
 .post {
     box-sizing: border-box;
@@ -110,5 +101,12 @@ strong{
     font-weight: bold;
 }
 
-
-  
+@media screen and (width < 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .post{
+    width: 70%;
+  }
+}
