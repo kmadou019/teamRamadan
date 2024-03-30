@@ -118,6 +118,9 @@ strong{
   border-radius: 10px;
 }
 @media screen and (width < 800px) {
+  .post h1{
+    font-size: x-large;
+  }
   header {
     display: flex;
     flex-direction: column;
