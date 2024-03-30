@@ -15,7 +15,16 @@ header{
     padding: 10px;
     display: flex;
     align-items: center;
-    gap: 40%;
+    gap: 30%;
+}
+nav a{
+  color: blue;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
 }
 
 header h1{
@@ -81,6 +90,10 @@ header h1{
     background: #eee;
     border-radius: 5px;
   }
+  q{
+    background: #eee;
+    border-radius: 5px;
+  }
  /*  
   blockquote p::before {
     content: '\201C';
@@ -110,3 +123,5 @@ strong{
     width: 70%;
   }
 }
+
+
