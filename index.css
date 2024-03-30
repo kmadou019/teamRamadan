@@ -114,6 +114,9 @@ strong{
     font-weight: bold;
 }
 
+.post img{
+  border-radius: 10px;
+}
 @media screen and (width < 800px) {
   header {
     display: flex;
