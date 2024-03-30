@@ -15,7 +15,7 @@ header{
     padding: 10px;
     display: flex;
     align-items: center;
-    gap: 30%;
+    justify-content: space-between;
 }
 nav a{
   color: blue;
@@ -94,16 +94,7 @@ header h1{
     background: #eee;
     border-radius: 5px;
   }
- /*  
-  blockquote p::before {
-    content: '\201C';
-  }
-  
-  blockquote p::after {
-    content: '\201D';
-  }
 
-   */
 
 .auteur {
     text-align: right;
@@ -119,14 +110,14 @@ strong{
 }
 @media screen and (width < 800px) {
   .post h1{
-    font-size: x-large;
+    font-size: large;
   }
   header {
     display: flex;
     flex-direction: column;
   }
   .post{
-    width: 70%;
+    width: 80%;
   }
 }
 
